@@ -9,6 +9,8 @@ function App() {
       <h2>Models</h2>
 
       <UnitTable/>
+
+      <h6>Source Code: <a href="https://github.com/spilth/foww">https://github.com/spilth/foww</a></h6>
     </div>
   );
 }
