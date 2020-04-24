@@ -6,7 +6,7 @@ function App() {
     <div className="container">
       <h1>Fallout Wasteland Warfare</h1>
 
-      <h2>Models</h2>
+      <h2>Units</h2>
 
       <UnitTable/>
 

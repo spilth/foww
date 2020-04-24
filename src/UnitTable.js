@@ -1,5 +1,5 @@
 import React from "react";
-import models from "./data/models";
+import units from "./data/units";
 import { useFilters, useSortBy, useTable } from "react-table";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -9,7 +9,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 export function UnitTable() {
-  const data = React.useMemo(() => models, []);
+  const data = React.useMemo(() => units, []);
 
   const SelectColumnFilter = ({
     column: { filterValue, setFilter, preFilteredRows, id },
