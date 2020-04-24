@@ -46,7 +46,7 @@ export function UnitTable() {
         Header: "Faction",
         accessor: "faction",
         Filter: SelectColumnFilter,
-        filter: "includes",
+        filter: "equals",
       },
       {
         Header: "Name",
@@ -55,6 +55,12 @@ export function UnitTable() {
       {
         Header: "Cost",
         accessor: "cost",
+      },
+      {
+        Header: "Unique",
+        accessor: d => { return d.unique ? 'Yes' : 'No' },
+        Filter: SelectColumnFilter,
+        filter: "equals",
       },
     ],
     []
