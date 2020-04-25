@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useMemo } from "react";
 import units from "./data/units";
 import { useFilters, useSortBy, useTable } from "react-table";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -9,17 +9,17 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 export function UnitTable() {
-  const data = React.useMemo(() => units, []);
+  const data = useMemo(() => units, []);
 
-  const SelectColumnFilter = ({
+  const StringColumnFilter = ({
     column: { filterValue, setFilter, preFilteredRows, id },
   }) => {
-    const options = React.useMemo(() => {
+    const options = useMemo(() => {
       const options = new Set();
       preFilteredRows.forEach((row) => {
         options.add(row.values[id]);
       });
-      return [...options.values()];
+      return [...options.values()].sort().filter((v) => v != null && v !== "");
     }, [id, preFilteredRows]);
 
     return (
@@ -40,18 +40,47 @@ export function UnitTable() {
     );
   };
 
-  const columns = React.useMemo(
+  const NumberColumnFilter = ({
+    column: { filterValue, setFilter, preFilteredRows, id },
+  }) => {
+    const options = useMemo(() => {
+      const options = new Set();
+      preFilteredRows.forEach((row) => {
+        options.add(row.values[id]);
+      });
+      return [...options.values()].sort((a, b) => a - b);
+    }, [id, preFilteredRows]);
+
+    return (
+      <select
+        value={filterValue}
+        onChange={(e) => {
+          setFilter(e.target.value || undefined);
+        }}
+        className="form-control"
+      >
+        <option value="">All</option>
+        {options.map((option, i) => (
+          <option key={i} value={option}>
+            {option}
+          </option>
+        ))}
+      </select>
+    );
+  };
+
+  const columns = useMemo(
     () => [
       {
         Header: "Wave",
         accessor: "wave",
-        Filter: SelectColumnFilter,
+        Filter: StringColumnFilter,
         filter: "equals",
       },
       {
         Header: "Faction",
         accessor: "faction",
-        Filter: SelectColumnFilter,
+        Filter: StringColumnFilter,
         filter: "equals",
       },
       {
@@ -61,7 +90,7 @@ export function UnitTable() {
       {
         Header: "Type",
         accessor: "type",
-        Filter: SelectColumnFilter,
+        Filter: StringColumnFilter,
         filter: "equals",
       },
       {
@@ -70,26 +99,28 @@ export function UnitTable() {
       },
       {
         Header: "Unique",
-        accessor: d => { return d.unique ? 'Yes' : 'No' },
-        Filter: SelectColumnFilter,
+        accessor: (d) => {
+          return d.unique ? "Yes" : "No";
+        },
+        Filter: StringColumnFilter,
         filter: "equals",
       },
       {
         Header: "Move",
         accessor: "move",
-        Filter: SelectColumnFilter,
+        Filter: NumberColumnFilter,
         filter: "equals",
       },
       {
         Header: "Charge",
         accessor: "charge",
-        Filter: SelectColumnFilter,
+        Filter: NumberColumnFilter,
         filter: "equals",
       },
       {
         Header: "Awareness",
         accessor: "awareness",
-        Filter: SelectColumnFilter,
+        Filter: NumberColumnFilter,
         filter: "equals",
       },
     ],
@@ -113,14 +144,14 @@ export function UnitTable() {
     );
   };
 
-  const defaultColumn = React.useMemo(
+  const defaultColumn = useMemo(
     () => ({
       Filter: DefaultColumnFilter,
     }),
     []
   );
 
-  const filterTypes = React.useMemo(
+  const filterTypes = useMemo(
     () => ({
       text: (rows, id, filterValue) => {
         return rows.filter((row) => {
