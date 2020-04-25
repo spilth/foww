@@ -43,6 +43,12 @@ export function UnitTable() {
   const columns = React.useMemo(
     () => [
       {
+        Header: "Wave",
+        accessor: "wave",
+        Filter: SelectColumnFilter,
+        filter: "equals",
+      },
+      {
         Header: "Faction",
         accessor: "faction",
         Filter: SelectColumnFilter,
@@ -53,12 +59,36 @@ export function UnitTable() {
         accessor: "name",
       },
       {
+        Header: "Type",
+        accessor: "type",
+        Filter: SelectColumnFilter,
+        filter: "equals",
+      },
+      {
         Header: "Cost",
         accessor: "cost",
       },
       {
         Header: "Unique",
         accessor: d => { return d.unique ? 'Yes' : 'No' },
+        Filter: SelectColumnFilter,
+        filter: "equals",
+      },
+      {
+        Header: "Move",
+        accessor: "move",
+        Filter: SelectColumnFilter,
+        filter: "equals",
+      },
+      {
+        Header: "Charge",
+        accessor: "charge",
+        Filter: SelectColumnFilter,
+        filter: "equals",
+      },
+      {
+        Header: "Awareness",
+        accessor: "awareness",
         Filter: SelectColumnFilter,
         filter: "equals",
       },
