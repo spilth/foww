@@ -16,6 +16,37 @@ import "./UnitTable.css";
 export function UnitTable() {
   const data = useMemo(() => units, []);
 
+  const FactionColumnFilter = ({
+    column: { filterValue, setFilter, preFilteredRows, id },
+  }) => {
+    const options = useMemo(() => {
+      const options = new Set();
+      preFilteredRows.forEach((row) => {
+        row.values[id].forEach((item) => {
+          options.add(item);
+        });
+      });
+      return [...options.values()].sort().filter((v) => v != null && v !== "");
+    }, [id, preFilteredRows]);
+
+    return (
+      <select
+        value={filterValue}
+        onChange={(e) => {
+          setFilter(e.target.value || undefined);
+        }}
+        className="form-control"
+      >
+        <option value="">All</option>
+        {options.map((option, i) => (
+          <option key={i} value={option}>
+            {option}
+          </option>
+        ))}
+      </select>
+    );
+  };
+
   const StringColumnFilter = ({
     column: { filterValue, setFilter, preFilteredRows, id },
   }) => {
@@ -74,6 +105,8 @@ export function UnitTable() {
     );
   };
 
+  const FactionCell = ({ value }) => <span>{value.join(", ")}</span>;
+
   const DistanceCell = ({ value }) => (
     <div className={`distance distance-${value}`}>{value}</div>
   );
@@ -89,8 +122,9 @@ export function UnitTable() {
       {
         Header: "Faction",
         accessor: "faction",
-        Filter: StringColumnFilter,
-        filter: "equals",
+        Filter: FactionColumnFilter,
+        filter: "includes",
+        Cell: FactionCell,
       },
       {
         Header: "Name",
@@ -197,7 +231,10 @@ export function UnitTable() {
   );
 
   return (
-    <table {...getTableProps()} className="table table-sm table-borderless table-striped">
+    <table
+      {...getTableProps()}
+      className="table table-sm table-borderless table-striped"
+    >
       <thead className="thead-dark">
         {headerGroups.map((headerGroup) => (
           <tr {...headerGroup.getHeaderGroupProps()}>
