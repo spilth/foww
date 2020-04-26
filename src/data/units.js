@@ -5,9 +5,9 @@ export default [{
   "cost": 107,
   "unique": true,
   "type": "Synth",
-  "move": "4",
-  "charge": "6",
-  "awareness": "10"
+  "move": 4,
+  "charge": 6,
+  "awareness": 10,
 }, {
   "wave": "2",
   "faction": "Raiders",
@@ -15,9 +15,9 @@ export default [{
   "cost": 98,
   "unique": true,
   "type": null,
-  "move": "4",
-  "charge": "6",
-  "awareness": "12"
+  "move": 4,
+  "charge": 6,
+  "awareness": 12
 }, {
   "wave": "1",
   "faction": "",
@@ -25,9 +25,9 @@ export default [{
   "cost": 70,
   "unique": false,
   "type": "Creature",
-  "move": "6",
-  "charge": "8",
-  "awareness": "12"
+  "move": 6,
+  "charge": 8,
+  "awareness": 12
 }, {
   "wave": "1",
   "faction": "Brotherhood of Steel",
@@ -35,9 +35,9 @@ export default [{
   "cost": 105,
   "unique": true,
   "type": null,
-  "move": "4",
-  "charge": "6",
-  "awareness": "10"
+  "move": 4,
+  "charge": 6,
+  "awareness": 10
 }, {
   "wave": "1",
   "faction": "",
@@ -45,9 +45,9 @@ export default [{
   "cost": 320,
   "unique": false,
   "type": "Robot",
-  "move": "6",
-  "charge": "8",
-  "awareness": "12"
+  "move": 6,
+  "charge": 8,
+  "awareness": 12
 }, {
   "wave": "2",
   "faction": "Raiders",
@@ -55,9 +55,9 @@ export default [{
   "cost": 85,
   "unique": true,
   "type": null,
-  "move": "4",
-  "charge": "6",
-  "awareness": "10"
+  "move": 4,
+  "charge": 6,
+  "awareness": 10
 }, {
   "wave": "1",
   "faction": "Super Mutant",
@@ -65,9 +65,9 @@ export default [{
   "cost": 88,
   "unique": true,
   "type": null,
-  "move": "4",
-  "charge": "6",
-  "awareness": "10"
+  "move": 4,
+  "charge": 6,
+  "awareness": 10
 }, {
   "wave": "RPG",
   "faction": "",
@@ -75,9 +75,9 @@ export default [{
   "cost": 44,
   "unique": false,
   "type": null,
-  "move": "4",
-  "charge": "8",
-  "awareness": "8"
+  "move": 4,
+  "charge": 8,
+  "awareness": 8
 }, {
   "wave": "2",
   "faction": "",
@@ -85,9 +85,9 @@ export default [{
   "cost": 145,
   "unique": false,
   "type": "Robot",
-  "move": "6",
-  "charge": "8",
-  "awareness": "12"
+  "move": 6,
+  "charge": 8,
+  "awareness": 12
 }, {
   "wave": "3",
   "faction": "The Institute",
@@ -95,9 +95,9 @@ export default [{
   "cost": 25,
   "unique": false,
   "type": "Synth",
-  "move": "4",
-  "charge": "6",
-  "awareness": "8"
+  "move": 4,
+  "charge": 6,
+  "awareness": 8
 }, {
   "wave": "2",
   "faction": "",
@@ -105,9 +105,9 @@ export default [{
   "cost": 20,
   "unique": false,
   "type": "Robot",
-  "move": "4",
-  "charge": "4",
-  "awareness": "8"
+  "move": 4,
+  "charge": 4,
+  "awareness": 8
 }, {
   "wave": "2",
   "faction": "",
@@ -115,9 +115,9 @@ export default [{
   "cost": 130,
   "unique": false,
   "type": "Robot",
-  "move": "4",
-  "charge": "6",
-  "awareness": "10"
+  "move": 4,
+  "charge": 6,
+  "awareness": 10
 }, {
   "wave": "1",
   "faction": "Super Mutant",
@@ -125,9 +125,9 @@ export default [{
   "cost": 245,
   "unique": false,
   "type": "Creature",
-  "move": "4",
-  "charge": "6",
-  "awareness": "10"
+  "move": 4,
+  "charge": 6,
+  "awareness": 10
 }, {
   "wave": "2",
   "faction": "Raiders",
@@ -135,9 +135,9 @@ export default [{
   "cost": 220,
   "unique": false,
   "type": "Creature",
-  "move": "4",
-  "charge": "6",
-  "awareness": "10"
+  "move": 4,
+  "charge": 6,
+  "awareness": 10
 }, {
   "wave": "1",
   "faction": "Super Mutant",
@@ -145,9 +145,9 @@ export default [{
   "cost": 87,
   "unique": false,
   "type": null,
-  "move": "4",
-  "charge": "8",
-  "awareness": "8"
+  "move": 4,
+  "charge": 8,
+  "awareness": 8
 }, {
   "wave": "1",
   "faction": "Survivor",
@@ -155,9 +155,9 @@ export default [{
   "cost": 77,
   "unique": true,
   "type": null,
-  "move": "4",
-  "charge": "6",
-  "awareness": "10"
+  "move": 4,
+  "charge": 6,
+  "awareness": 10
 }, {
   "wave": "RPG",
   "faction": "",
@@ -165,9 +165,9 @@ export default [{
   "cost": 41,
   "unique": false,
   "type": null,
-  "move": "4",
-  "charge": "6",
-  "awareness": "10"
+  "move": 4,
+  "charge": 6,
+  "awareness": 10
 }, {
   "wave": "1",
   "faction": "",
@@ -175,9 +175,9 @@ export default [{
   "cost": 90,
   "unique": true,
   "type": "Robot",
-  "move": "6",
-  "charge": "8",
-  "awareness": "12"
+  "move": 6,
+  "charge": 8,
+  "awareness": 12
 }, {
   "wave": "3",
   "faction": "The Institute",
@@ -185,9 +185,9 @@ export default [{
   "cost": 87,
   "unique": true,
   "type": null,
-  "move": "4",
-  "charge": "6",
-  "awareness": "12"
+  "move": 4,
+  "charge": 6,
+  "awareness": 12
 }, {
   "wave": "3",
   "faction": "The Institute",
@@ -195,9 +195,9 @@ export default [{
   "cost": 138,
   "unique": false,
   "type": null,
-  "move": "4",
-  "charge": "6",
-  "awareness": "12"
+  "move": 4,
+  "charge": 6,
+  "awareness": 12
 }, {
   "wave": "1",
   "faction": "",
@@ -205,9 +205,9 @@ export default [{
   "cost": 295,
   "unique": false,
   "type": "Creature",
-  "move": "4",
-  "charge": "8",
-  "awareness": "12"
+  "move": 4,
+  "charge": 8,
+  "awareness": 12
 }, {
   "wave": "RPG",
   "faction": "",
@@ -215,9 +215,9 @@ export default [{
   "cost": 46,
   "unique": false,
   "type": null,
-  "move": "4",
-  "charge": "6",
-  "awareness": "10"
+  "move": 4,
+  "charge": 6,
+  "awareness": 10
 }, {
   "wave": "1",
   "faction": "",
@@ -225,9 +225,9 @@ export default [{
   "cost": 90,
   "unique": false,
   "type": "Dog",
-  "move": "6",
-  "charge": "8",
-  "awareness": "12"
+  "move": 6,
+  "charge": 8,
+  "awareness": 12
 }, {
   "wave": "1",
   "faction": "Survivor",
@@ -235,9 +235,9 @@ export default [{
   "cost": 110,
   "unique": true,
   "type": "Dog",
-  "move": "6",
-  "charge": "8",
-  "awareness": "12"
+  "move": 6,
+  "charge": 8,
+  "awareness": 12
 }, {
   "wave": "2",
   "faction": "Survivor",
@@ -245,9 +245,9 @@ export default [{
   "cost": 95,
   "unique": true,
   "type": "Dog",
-  "move": "6",
-  "charge": "8",
-  "awareness": "12"
+  "move": 6,
+  "charge": 8,
+  "awareness": 12
 }, {
   "wave": "1",
   "faction": "Survivor",
@@ -255,9 +255,9 @@ export default [{
   "cost": 100,
   "unique": true,
   "type": "Dog",
-  "move": "6",
-  "charge": "8",
-  "awareness": "12"
+  "move": 6,
+  "charge": 8,
+  "awareness": 12
 }, {
   "wave": "3",
   "faction": "The Institute",
@@ -265,9 +265,9 @@ export default [{
   "cost": 140,
   "unique": true,
   "type": null,
-  "move": "4",
-  "charge": "6",
-  "awareness": "12"
+  "move": 4,
+  "charge": 6,
+  "awareness": 12
 }, {
   "wave": "3",
   "faction": "The Institute",
@@ -275,9 +275,9 @@ export default [{
   "cost": 43,
   "unique": false,
   "type": null,
-  "move": "6",
-  "charge": "6",
-  "awareness": "10"
+  "move": 6,
+  "charge": 6,
+  "awareness": 10
 }, {
   "wave": "1",
   "faction": "Survivor",
@@ -285,9 +285,9 @@ export default [{
   "cost": 35,
   "unique": false,
   "type": null,
-  "move": "6",
-  "charge": "6",
-  "awareness": "8"
+  "move": 6,
+  "charge": 6,
+  "awareness": 8
 }, {
   "wave": "1",
   "faction": "",
@@ -295,9 +295,9 @@ export default [{
   "cost": 45,
   "unique": false,
   "type": "Robot",
-  "move": "4",
-  "charge": "6",
-  "awareness": "12"
+  "move": 4,
+  "charge": 6,
+  "awareness": 12
 }, {
   "wave": "1",
   "faction": "",
@@ -305,9 +305,9 @@ export default [{
   "cost": 50,
   "unique": false,
   "type": "Creature",
-  "move": "4",
-  "charge": "6",
-  "awareness": "8"
+  "move": 4,
+  "charge": 6,
+  "awareness": 8
 }, {
   "wave": "1",
   "faction": "Brotherhood of Steel",
@@ -315,9 +315,9 @@ export default [{
   "cost": 43,
   "unique": false,
   "type": null,
-  "move": "6",
-  "charge": "8",
-  "awareness": "10"
+  "move": 6,
+  "charge": 8,
+  "awareness": 10
 }, {
   "wave": "3",
   "faction": "Brotherhood of Steel",
@@ -325,9 +325,9 @@ export default [{
   "cost": 41,
   "unique": false,
   "type": null,
-  "move": "6",
-  "charge": "8",
-  "awareness": "10"
+  "move": 6,
+  "charge": 8,
+  "awareness": 10
 }, {
   "wave": "3",
   "faction": "Super Mutant",
@@ -335,9 +335,9 @@ export default [{
   "cost": 79,
   "unique": true,
   "type": null,
-  "move": "4",
-  "charge": "6",
-  "awareness": "8"
+  "move": 4,
+  "charge": 6,
+  "awareness": 8
 }, {
   "wave": "RPG",
   "faction": "",
@@ -345,9 +345,9 @@ export default [{
   "cost": 35,
   "unique": false,
   "type": null,
-  "move": "4",
-  "charge": "6",
-  "awareness": "12"
+  "move": 4,
+  "charge": 6,
+  "awareness": 12
 }, {
   "wave": "RPG",
   "faction": "",
@@ -355,9 +355,9 @@ export default [{
   "cost": 47,
   "unique": false,
   "type": null,
-  "move": "4",
-  "charge": "6",
-  "awareness": "12"
+  "move": 4,
+  "charge": 6,
+  "awareness": 12
 }, {
   "wave": "3",
   "faction": "The Institute",
@@ -365,9 +365,9 @@ export default [{
   "cost": 35,
   "unique": false,
   "type": "Synth",
-  "move": "4",
-  "charge": "6",
-  "awareness": "10"
+  "move": 4,
+  "charge": 6,
+  "awareness": 10
 }, {
   "wave": "2",
   "faction": "",
@@ -375,9 +375,9 @@ export default [{
   "cost": 40,
   "unique": false,
   "type": "Creature",
-  "move": "4",
-  "charge": "6",
-  "awareness": "12"
+  "move": 4,
+  "charge": 6,
+  "awareness": 12
 }, {
   "wave": "1",
   "faction": "Super Mutant",
@@ -385,9 +385,9 @@ export default [{
   "cost": 105,
   "unique": true,
   "type": null,
-  "move": "4",
-  "charge": "8",
-  "awareness": "10"
+  "move": 4,
+  "charge": 8,
+  "awareness": 10
 }, {
   "wave": "3",
   "faction": "Survivor",
@@ -395,9 +395,9 @@ export default [{
   "cost": 61,
   "unique": true,
   "type": null,
-  "move": "4",
-  "charge": "6",
-  "awareness": "12"
+  "move": 4,
+  "charge": 6,
+  "awareness": 12
 }, {
   "wave": "RPG",
   "faction": "",
@@ -405,9 +405,9 @@ export default [{
   "cost": 48,
   "unique": false,
   "type": null,
-  "move": "4",
-  "charge": "6",
-  "awareness": "10"
+  "move": 4,
+  "charge": 6,
+  "awareness": 10
 }, {
   "wave": "RPG",
   "faction": "Super Mutant",
@@ -415,9 +415,9 @@ export default [{
   "cost": 50,
   "unique": false,
   "type": null,
-  "move": "4",
-  "charge": "8",
-  "awareness": "8"
+  "move": 4,
+  "charge": 8,
+  "awareness": 8
 }, {
   "wave": "RPG",
   "faction": "Super Mutant",
@@ -425,9 +425,9 @@ export default [{
   "cost": 48,
   "unique": false,
   "type": null,
-  "move": "4",
-  "charge": "6",
-  "awareness": "10"
+  "move": 4,
+  "charge": 6,
+  "awareness": 10
 }, {
   "wave": "RPG",
   "faction": "",
@@ -435,9 +435,9 @@ export default [{
   "cost": 42,
   "unique": false,
   "type": null,
-  "move": "4",
-  "charge": "6",
-  "awareness": "12"
+  "move": 4,
+  "charge": 6,
+  "awareness": 12
 }, {
   "wave": "1",
   "faction": "Brotherhood of Steel",
@@ -445,9 +445,9 @@ export default [{
   "cost": 65,
   "unique": false,
   "type": null,
-  "move": "4",
-  "charge": "6",
-  "awareness": "10"
+  "move": 4,
+  "charge": 6,
+  "awareness": 10
 }, {
   "wave": "1",
   "faction": "Brotherhood of Steel",
@@ -455,9 +455,9 @@ export default [{
   "cost": 40,
   "unique": false,
   "type": null,
-  "move": "4",
-  "charge": "6",
-  "awareness": "8"
+  "move": 4,
+  "charge": 6,
+  "awareness": 8
 }, {
   "wave": "1",
   "faction": "Brotherhood of Steel",
@@ -465,9 +465,9 @@ export default [{
   "cost": 38,
   "unique": false,
   "type": null,
-  "move": "4",
-  "charge": "6",
-  "awareness": "8"
+  "move": 4,
+  "charge": 6,
+  "awareness": 8
 }, {
   "wave": "3",
   "faction": "Brotherhood of Steel",
@@ -475,9 +475,9 @@ export default [{
   "cost": 66,
   "unique": false,
   "type": null,
-  "move": "4",
-  "charge": "6",
-  "awareness": "10"
+  "move": 4,
+  "charge": 6,
+  "awareness": 10
 }, {
   "wave": "1",
   "faction": "Brotherhood of Steel",
@@ -485,9 +485,9 @@ export default [{
   "cost": 80,
   "unique": true,
   "type": null,
-  "move": "4",
-  "charge": "6",
-  "awareness": "10"
+  "move": 4,
+  "charge": 6,
+  "awareness": 10
 }, {
   "wave": "1",
   "faction": "Brotherhood of Steel",
@@ -495,9 +495,9 @@ export default [{
   "cost": 60,
   "unique": false,
   "type": null,
-  "move": "4",
-  "charge": "6",
-  "awareness": "12"
+  "move": 4,
+  "charge": 6,
+  "awareness": 12
 }, {
   "wave": "3",
   "faction": "Brotherhood of Steel",
@@ -505,9 +505,9 @@ export default [{
   "cost": 88,
   "unique": true,
   "type": null,
-  "move": "4",
-  "charge": "6",
-  "awareness": "10"
+  "move": 4,
+  "charge": 6,
+  "awareness": 10
 }, {
   "wave": "1",
   "faction": "Survivor",
@@ -515,9 +515,9 @@ export default [{
   "cost": 85,
   "unique": true,
   "type": null,
-  "move": "4",
-  "charge": "4",
-  "awareness": "12"
+  "move": 4,
+  "charge": 4,
+  "awareness": 12
 }, {
   "wave": "1",
   "faction": "Super Mutant",
@@ -525,9 +525,9 @@ export default [{
   "cost": 100,
   "unique": false,
   "type": null,
-  "move": "4",
-  "charge": "8",
-  "awareness": "12"
+  "move": 4,
+  "charge": 8,
+  "awareness": 12
 }, {
   "wave": "1",
   "faction": "Minutemen",
@@ -535,9 +535,9 @@ export default [{
   "cost": 57,
   "unique": false,
   "type": null,
-  "move": "4",
-  "charge": "6",
-  "awareness": "8"
+  "move": 4,
+  "charge": 6,
+  "awareness": 8
 }, {
   "wave": "2",
   "faction": "",
@@ -545,9 +545,9 @@ export default [{
   "cost": 14,
   "unique": false,
   "type": "Creature",
-  "move": "4",
-  "charge": "6",
-  "awareness": "10"
+  "move": 4,
+  "charge": 6,
+  "awareness": 10
 }, {
   "wave": "1",
   "faction": "",
@@ -555,9 +555,9 @@ export default [{
   "cost": 70,
   "unique": false,
   "type": "Robot",
-  "move": "6",
-  "charge": "8",
-  "awareness": "12"
+  "move": 6,
+  "charge": 8,
+  "awareness": 12
 }, {
   "wave": "RPG",
   "faction": "",
@@ -565,9 +565,9 @@ export default [{
   "cost": 60,
   "unique": false,
   "type": "Robot",
-  "move": "6",
-  "charge": "8",
-  "awareness": "12"
+  "move": 6,
+  "charge": 8,
+  "awareness": 12
 }, {
   "wave": "1",
   "faction": "Super Mutant",
@@ -575,9 +575,9 @@ export default [{
   "cost": 63,
   "unique": false,
   "type": "Dog",
-  "move": "6",
-  "charge": "10",
-  "awareness": "12"
+  "move": 6,
+  "charge": 10,
+  "awareness": 12
 }, {
   "wave": "1",
   "faction": "Super Mutant",
@@ -585,9 +585,9 @@ export default [{
   "cost": 65,
   "unique": false,
   "type": "Dog",
-  "move": "6",
-  "charge": "10",
-  "awareness": "12"
+  "move": 6,
+  "charge": 10,
+  "awareness": 12
 }, {
   "wave": "3",
   "faction": "Survivor",
@@ -595,9 +595,9 @@ export default [{
   "cost": 90,
   "unique": true,
   "type": "Synth",
-  "move": "6",
-  "charge": "6",
-  "awareness": "12"
+  "move": 6,
+  "charge": 6,
+  "awareness": 12
 }, {
   "wave": "1",
   "faction": "Survivor",
@@ -605,9 +605,9 @@ export default [{
   "cost": 85,
   "unique": true,
   "type": null,
-  "move": "6",
-  "charge": "8",
-  "awareness": "12"
+  "move": 6,
+  "charge": 8,
+  "awareness": 12
 }, {
   "wave": "3",
   "faction": "Super Mutant",
@@ -615,9 +615,9 @@ export default [{
   "cost": 155,
   "unique": false,
   "type": null,
-  "move": "4",
-  "charge": "8",
-  "awareness": "12"
+  "move": 4,
+  "charge": 8,
+  "awareness": 12
 }, {
   "wave": "1",
   "faction": "Brotherhood of Steel",
@@ -625,9 +625,9 @@ export default [{
   "cost": 90,
   "unique": false,
   "type": null,
-  "move": "4",
-  "charge": "6",
-  "awareness": "12"
+  "move": 4,
+  "charge": 6,
+  "awareness": 12
 }, {
   "wave": "1",
   "faction": "Brotherhood of Steel",
@@ -635,9 +635,9 @@ export default [{
   "cost": 118,
   "unique": true,
   "type": null,
-  "move": "4",
-  "charge": "6",
-  "awareness": "12"
+  "move": 4,
+  "charge": 6,
+  "awareness": 12
 }, {
   "wave": "3",
   "faction": "The Institute",
@@ -645,9 +645,9 @@ export default [{
   "cost": 77,
   "unique": false,
   "type": "Synth",
-  "move": "4",
-  "charge": "6",
-  "awareness": "10"
+  "move": 4,
+  "charge": 6,
+  "awareness": 10
 }, {
   "wave": "RPG",
   "faction": "",
@@ -655,9 +655,9 @@ export default [{
   "cost": 37,
   "unique": false,
   "type": null,
-  "move": "4",
-  "charge": "6",
-  "awareness": "10"
+  "move": 4,
+  "charge": 6,
+  "awareness": 10
 }, {
   "wave": "1",
   "faction": "Survivor",
@@ -665,9 +665,9 @@ export default [{
   "cost": 76,
   "unique": true,
   "type": null,
-  "move": "4",
-  "charge": "6",
-  "awareness": "12"
+  "move": 4,
+  "charge": 6,
+  "awareness": 12
 }, {
   "wave": "1",
   "faction": "Survivor / Minutemen",
@@ -675,9 +675,9 @@ export default [{
   "cost": 124,
   "unique": true,
   "type": null,
-  "move": "4",
-  "charge": "6",
-  "awareness": "12"
+  "move": 4,
+  "charge": 6,
+  "awareness": 12
 }, {
   "wave": "1",
   "faction": "",
@@ -685,9 +685,9 @@ export default [{
   "cost": 30,
   "unique": false,
   "type": "Robot",
-  "move": "4",
-  "charge": "4",
-  "awareness": "8"
+  "move": 4,
+  "charge": 4,
+  "awareness": 8
 }, {
   "wave": "2",
   "faction": "Raiders",
@@ -695,9 +695,9 @@ export default [{
   "cost": 45,
   "unique": false,
   "type": null,
-  "move": "6",
-  "charge": "8",
-  "awareness": "10"
+  "move": 6,
+  "charge": 8,
+  "awareness": 10
 }, {
   "wave": "2",
   "faction": "Raiders",
@@ -705,9 +705,9 @@ export default [{
   "cost": 44,
   "unique": false,
   "type": null,
-  "move": "6",
-  "charge": "8",
-  "awareness": "10"
+  "move": 6,
+  "charge": 8,
+  "awareness": 10
 }, {
   "wave": "2",
   "faction": "Raiders",
@@ -715,9 +715,9 @@ export default [{
   "cost": 210,
   "unique": false,
   "type": "Creature",
-  "move": "4",
-  "charge": "6",
-  "awareness": "10"
+  "move": 4,
+  "charge": 6,
+  "awareness": 10
 }, {
   "wave": "1",
   "faction": "",
@@ -725,9 +725,9 @@ export default [{
   "cost": 17,
   "unique": false,
   "type": "Creature",
-  "move": "4",
-  "charge": "6",
-  "awareness": "12"
+  "move": 4,
+  "charge": 6,
+  "awareness": 12
 }, {
   "wave": "1",
   "faction": "",
@@ -735,9 +735,9 @@ export default [{
   "cost": 90,
   "unique": false,
   "type": "Creature",
-  "move": "6",
-  "charge": "8",
-  "awareness": "8"
+  "move": 6,
+  "charge": 8,
+  "awareness": 8
 }, {
   "wave": "2",
   "faction": "Raiders",
@@ -745,9 +745,9 @@ export default [{
   "cost": 39,
   "unique": false,
   "type": null,
-  "move": "4",
-  "charge": "8",
-  "awareness": "8"
+  "move": 4,
+  "charge": 8,
+  "awareness": 8
 }, {
   "wave": "2",
   "faction": "Raiders",
@@ -755,9 +755,9 @@ export default [{
   "cost": 39,
   "unique": false,
   "type": null,
-  "move": "4",
-  "charge": "8",
-  "awareness": "8"
+  "move": 4,
+  "charge": 8,
+  "awareness": 8
 }, {
   "wave": "RPG",
   "faction": "",
@@ -765,9 +765,9 @@ export default [{
   "cost": 30,
   "unique": false,
   "type": null,
-  "move": "4",
-  "charge": "6",
-  "awareness": "8"
+  "move": 4,
+  "charge": 6,
+  "awareness": 8
 }, {
   "wave": "1",
   "faction": "Survivor / Minutemen",
@@ -775,9 +775,9 @@ export default [{
   "cost": 114,
   "unique": true,
   "type": null,
-  "move": "4",
-  "charge": "6",
-  "awareness": "10"
+  "move": 4,
+  "charge": 6,
+  "awareness": 10
 }, {
   "wave": "1",
   "faction": "Survivor",
@@ -785,9 +785,9 @@ export default [{
   "cost": 42,
   "unique": false,
   "type": null,
-  "move": "4",
-  "charge": "6",
-  "awareness": "10"
+  "move": 4,
+  "charge": 6,
+  "awareness": 10
 }, {
   "wave": "2",
   "faction": "Raiders",
@@ -795,9 +795,9 @@ export default [{
   "cost": 60,
   "unique": false,
   "type": null,
-  "move": "4",
-  "charge": "6",
-  "awareness": "10"
+  "move": 4,
+  "charge": 6,
+  "awareness": 10
 }, {
   "wave": "2",
   "faction": "Raiders",
@@ -805,9 +805,9 @@ export default [{
   "cost": 59,
   "unique": false,
   "type": null,
-  "move": "4",
-  "charge": "6",
-  "awareness": "10"
+  "move": 4,
+  "charge": 6,
+  "awareness": 10
 }, {
   "wave": "3",
   "faction": "The Institute",
@@ -815,9 +815,9 @@ export default [{
   "cost": 30,
   "unique": false,
   "type": null,
-  "move": "6",
-  "charge": "6",
-  "awareness": "12"
+  "move": 6,
+  "charge": 6,
+  "awareness": 12
 }, {
   "wave": "RPG",
   "faction": "",
@@ -825,9 +825,9 @@ export default [{
   "cost": 62,
   "unique": false,
   "type": null,
-  "move": "4",
-  "charge": "6",
-  "awareness": "12"
+  "move": 4,
+  "charge": 6,
+  "awareness": 12
 }, {
   "wave": "1",
   "faction": "",
@@ -835,9 +835,9 @@ export default [{
   "cost": 310,
   "unique": false,
   "type": "Robot",
-  "move": "4",
-  "charge": "6",
-  "awareness": "10"
+  "move": 4,
+  "charge": 6,
+  "awareness": 10
 }, {
   "wave": "1",
   "faction": "Survivor",
@@ -845,9 +845,9 @@ export default [{
   "cost": 40,
   "unique": false,
   "type": null,
-  "move": "4",
-  "charge": "6",
-  "awareness": "8"
+  "move": 4,
+  "charge": 6,
+  "awareness": 8
 }, {
   "wave": "2",
   "faction": "Raiders",
@@ -855,9 +855,9 @@ export default [{
   "cost": 88,
   "unique": true,
   "type": null,
-  "move": "4",
-  "charge": "6",
-  "awareness": "12"
+  "move": 4,
+  "charge": 6,
+  "awareness": 12
 }, {
   "wave": "3",
   "faction": "Super Mutant",
@@ -865,9 +865,9 @@ export default [{
   "cost": 49,
   "unique": false,
   "type": null,
-  "move": "4",
-  "charge": "6",
-  "awareness": "8"
+  "move": 4,
+  "charge": 6,
+  "awareness": 8
 }, {
   "wave": "RPG",
   "faction": "",
@@ -875,9 +875,9 @@ export default [{
   "cost": 58,
   "unique": false,
   "type": null,
-  "move": "6",
-  "charge": "6",
-  "awareness": "12"
+  "move": 6,
+  "charge": 6,
+  "awareness": 12
 }, {
   "wave": "1",
   "faction": "Survivor",
@@ -885,9 +885,9 @@ export default [{
   "cost": 103,
   "unique": true,
   "type": null,
-  "move": "4",
-  "charge": "6",
-  "awareness": "12"
+  "move": 4,
+  "charge": 6,
+  "awareness": 12
 }, {
   "wave": "1",
   "faction": "Survivor",
@@ -895,9 +895,9 @@ export default [{
   "cost": 81,
   "unique": true,
   "type": null,
-  "move": "4",
-  "charge": "6",
-  "awareness": "12"
+  "move": 4,
+  "charge": 6,
+  "awareness": 12
 }, {
   "wave": "1",
   "faction": "Survivor",
@@ -905,9 +905,9 @@ export default [{
   "cost": 123,
   "unique": true,
   "type": null,
-  "move": "4",
-  "charge": "6",
-  "awareness": "12"
+  "move": 4,
+  "charge": 6,
+  "awareness": 12
 }, {
   "wave": "2",
   "faction": "Survivor",
@@ -915,9 +915,9 @@ export default [{
   "cost": 85,
   "unique": true,
   "type": null,
-  "move": "6",
-  "charge": "6",
-  "awareness": "12"
+  "move": 6,
+  "charge": 6,
+  "awareness": 12
 }, {
   "wave": "3",
   "faction": "Super Mutant",
@@ -925,9 +925,9 @@ export default [{
   "cost": 90,
   "unique": true,
   "type": null,
-  "move": "4",
-  "charge": "8",
-  "awareness": "10"
+  "move": 4,
+  "charge": 8,
+  "awareness": 10
 }, {
   "wave": "1",
   "faction": "Survivor",
@@ -935,9 +935,9 @@ export default [{
   "cost": 92,
   "unique": true,
   "type": null,
-  "move": "4",
-  "charge": "6",
-  "awareness": "10"
+  "move": 4,
+  "charge": 6,
+  "awareness": 10
 }, {
   "wave": "1",
   "faction": "Super Mutant",
@@ -945,9 +945,9 @@ export default [{
   "cost": 55,
   "unique": false,
   "type": null,
-  "move": "4",
-  "charge": "6",
-  "awareness": "12"
+  "move": 4,
+  "charge": 6,
+  "awareness": 12
 }, {
   "wave": "1",
   "faction": "Super Mutant",
@@ -955,9 +955,9 @@ export default [{
   "cost": 40,
   "unique": false,
   "type": null,
-  "move": "4",
-  "charge": "6",
-  "awareness": "8"
+  "move": 4,
+  "charge": 6,
+  "awareness": 8
 }, {
   "wave": "RPG",
   "faction": "",
@@ -965,9 +965,9 @@ export default [{
   "cost": 41,
   "unique": false,
   "type": null,
-  "move": "6",
-  "charge": "8",
-  "awareness": "10"
+  "move": 6,
+  "charge": 8,
+  "awareness": 10
 }, {
   "wave": "3",
   "faction": "",
@@ -975,9 +975,9 @@ export default [{
   "cost": 145,
   "unique": true,
   "type": null,
-  "move": "4",
-  "charge": "6",
-  "awareness": "12"
+  "move": 4,
+  "charge": 6,
+  "awareness": 12
 }, {
   "wave": "RPG",
   "faction": "",
@@ -985,9 +985,9 @@ export default [{
   "cost": 48,
   "unique": false,
   "type": null,
-  "move": "6",
-  "charge": "8",
-  "awareness": "8"
+  "move": 6,
+  "charge": 8,
+  "awareness": 8
 }, {
   "wave": "3",
   "faction": "The Institute",
@@ -995,9 +995,9 @@ export default [{
   "cost": 88,
   "unique": false,
   "type": "Synth",
-  "move": "4",
-  "charge": "6",
-  "awareness": "10"
+  "move": 4,
+  "charge": 6,
+  "awareness": 10
 }, {
   "wave": "3",
   "faction": "Vault Dweller",
@@ -1005,9 +1005,9 @@ export default [{
   "cost": 34,
   "unique": false,
   "type": null,
-  "move": "4",
-  "charge": "6",
-  "awareness": "8"
+  "move": 4,
+  "charge": 6,
+  "awareness": 8
 }, {
   "wave": "3",
   "faction": "Vault Dweller",
@@ -1015,9 +1015,9 @@ export default [{
   "cost": 40,
   "unique": false,
   "type": null,
-  "move": "4",
-  "charge": "6",
-  "awareness": "10"
+  "move": 4,
+  "charge": 6,
+  "awareness": 10
 }, {
   "wave": "2",
   "faction": "Raiders",
@@ -1025,9 +1025,9 @@ export default [{
   "cost": 85,
   "unique": false,
   "type": null,
-  "move": "4",
-  "charge": "6",
-  "awareness": "12"
+  "move": 4,
+  "charge": 6,
+  "awareness": 12
 }, {
   "wave": "2",
   "faction": "Raiders",
@@ -1035,9 +1035,9 @@ export default [{
   "cost": 28,
   "unique": false,
   "type": "Creature",
-  "move": "4",
-  "charge": "6",
-  "awareness": "8"
+  "move": 4,
+  "charge": 6,
+  "awareness": 8
 }, {
   "wave": "1",
   "faction": "Survivor",
@@ -1045,9 +1045,9 @@ export default [{
   "cost": 152,
   "unique": true,
   "type": null,
-  "move": "4",
-  "charge": "6",
-  "awareness": "12"
+  "move": 4,
+  "charge": 6,
+  "awareness": 12
 }, {
   "wave": "2",
   "faction": "",
@@ -1055,9 +1055,9 @@ export default [{
   "cost": 125,
   "unique": false,
   "type": "Creature",
-  "move": "4",
-  "charge": "8",
-  "awareness": "12"
+  "move": 4,
+  "charge": 8,
+  "awareness": 12
 }, {
   "wave": "3",
   "faction": "The Institute",
@@ -1065,7 +1065,7 @@ export default [{
   "cost": 118,
   "unique": true,
   "type": null,
-  "move": "4",
-  "charge": "6",
-  "awareness": "12"
+  "move": 4,
+  "charge": 6,
+  "awareness": 12
 }];
