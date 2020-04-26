@@ -3,10 +3,15 @@ import units from "./data/units";
 import { useFilters, useSortBy, useTable } from "react-table";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
+  faEye,
+  faForward,
+  faPlay,
   faSort,
   faSortDown,
   faSortUp,
 } from "@fortawesome/free-solid-svg-icons";
+
+import "./UnitTable.css";
 
 export function UnitTable() {
   const data = useMemo(() => units, []);
@@ -69,6 +74,10 @@ export function UnitTable() {
     );
   };
 
+  const DistanceCell = ({ value }) => (
+    <div className={`distance distance-${value}`}>{value}</div>
+  );
+
   const columns = useMemo(
     () => [
       {
@@ -106,22 +115,25 @@ export function UnitTable() {
         filter: "equals",
       },
       {
-        Header: "Move",
+        Header: <FontAwesomeIcon icon={faPlay} fixedWidth />,
         accessor: "move",
         Filter: NumberColumnFilter,
         filter: "equals",
+        Cell: DistanceCell,
       },
       {
-        Header: "Charge",
+        Header: <FontAwesomeIcon icon={faForward} fixedWidth />,
         accessor: "charge",
         Filter: NumberColumnFilter,
         filter: "equals",
+        Cell: DistanceCell,
       },
       {
-        Header: "Awareness",
+        Header: <FontAwesomeIcon icon={faEye} fixedWidth />,
         accessor: "awareness",
         Filter: NumberColumnFilter,
         filter: "equals",
+        Cell: DistanceCell,
       },
     ],
     []
@@ -185,7 +197,7 @@ export function UnitTable() {
   );
 
   return (
-    <table {...getTableProps()} className="table table-sm">
+    <table {...getTableProps()} className="table table-sm table-borderless">
       <thead>
         {headerGroups.map((headerGroup) => (
           <tr {...headerGroup.getHeaderGroupProps()}>
