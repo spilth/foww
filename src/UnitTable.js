@@ -105,7 +105,7 @@ export function UnitTable() {
     );
   };
 
-  const FactionCell = ({ value }) => <span>{value.join(", ")}</span>;
+  const FactionCell = ({ value }) => <span>{value.join(" / ")}</span>;
 
   const DistanceCell = ({ value }) => (
     <div className={`distance distance-${value}`}>{value}</div>
