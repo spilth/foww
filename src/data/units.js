@@ -1,7 +1,7 @@
 export default [
   {
     wave: "3",
-    faction: ["The Institute"],
+    factions: ["The Institute"],
     name: "A-2018",
     cost: 107,
     unique: true,
@@ -12,7 +12,7 @@ export default [
   },
   {
     wave: "2",
-    faction: ["Raiders"],
+    factions: ["Raiders"],
     name: "Ack Ack",
     cost: 98,
     unique: true,
@@ -23,7 +23,7 @@ export default [
   },
   {
     wave: "1",
-    faction: [],
+    factions: [],
     name: "Alien",
     cost: 70,
     unique: false,
@@ -34,7 +34,7 @@ export default [
   },
   {
     wave: "1",
-    faction: ["Brotherhood of Steel"],
+    factions: ["Brotherhood of Steel"],
     name: "Aspirant Goddard",
     cost: 105,
     unique: true,
@@ -45,7 +45,7 @@ export default [
   },
   {
     wave: "1",
-    faction: [],
+    factions: [],
     name: "Assaultron",
     cost: 320,
     unique: false,
@@ -56,7 +56,7 @@ export default [
   },
   {
     wave: "2",
-    faction: ["Raiders"],
+    factions: ["Raiders"],
     name: "Avery",
     cost: 85,
     unique: true,
@@ -67,7 +67,7 @@ export default [
   },
   {
     wave: "1",
-    faction: ["Super Mutant"],
+    factions: ["Super Mutant"],
     name: "Aviator",
     cost: 88,
     unique: true,
@@ -78,7 +78,7 @@ export default [
   },
   {
     wave: "RPG",
-    faction: [],
+    factions: [],
     name: "Bandit",
     cost: 44,
     unique: false,
@@ -89,7 +89,7 @@ export default [
   },
   {
     wave: "2",
-    faction: [],
+    factions: [],
     name: "Battered Assaultron",
     cost: 145,
     unique: false,
@@ -100,7 +100,7 @@ export default [
   },
   {
     wave: "3",
-    faction: ["The Institute"],
+    factions: ["The Institute"],
     name: "Battered Gen 1 Synth",
     cost: 25,
     unique: false,
@@ -111,7 +111,7 @@ export default [
   },
   {
     wave: "2",
-    faction: [],
+    factions: [],
     name: "Battered Protectron",
     cost: 20,
     unique: false,
@@ -122,7 +122,7 @@ export default [
   },
   {
     wave: "2",
-    faction: [],
+    factions: [],
     name: "Battered Sentry Bot",
     cost: 130,
     unique: false,
@@ -133,7 +133,7 @@ export default [
   },
   {
     wave: "1",
-    faction: ["Super Mutant"],
+    factions: ["Super Mutant"],
     name: "Behemoth",
     cost: 245,
     unique: false,
@@ -144,7 +144,7 @@ export default [
   },
   {
     wave: "2",
-    faction: ["Raiders"],
+    factions: ["Raiders"],
     name: "Bloated Glowing One",
     cost: 220,
     unique: false,
@@ -155,7 +155,7 @@ export default [
   },
   {
     wave: "1",
-    faction: ["Super Mutant"],
+    factions: ["Super Mutant"],
     name: "Brute",
     cost: 87,
     unique: false,
@@ -166,7 +166,7 @@ export default [
   },
   {
     wave: "1",
-    faction: ["Survivor"],
+    factions: ["Survivor"],
     name: "Cait",
     cost: 77,
     unique: true,
@@ -177,7 +177,7 @@ export default [
   },
   {
     wave: "RPG",
-    faction: [],
+    factions: [],
     name: "Chem Maker",
     cost: 41,
     unique: false,
@@ -188,7 +188,7 @@ export default [
   },
   {
     wave: "1",
-    faction: [],
+    factions: [],
     name: "Codsworth",
     cost: 90,
     unique: true,
@@ -199,7 +199,7 @@ export default [
   },
   {
     wave: "3",
-    faction: ["The Institute"],
+    factions: ["The Institute"],
     name: "Conrad Kellogg",
     cost: 87,
     unique: true,
@@ -210,7 +210,7 @@ export default [
   },
   {
     wave: "3",
-    faction: ["The Institute"],
+    factions: ["The Institute"],
     name: "Courser",
     cost: 138,
     unique: false,
@@ -221,7 +221,7 @@ export default [
   },
   {
     wave: "1",
-    faction: [],
+    factions: [],
     name: "Deathclaw",
     cost: 295,
     unique: false,
@@ -232,7 +232,7 @@ export default [
   },
   {
     wave: "RPG",
-    faction: [],
+    factions: [],
     name: "Defender",
     cost: 46,
     unique: false,
@@ -243,7 +243,7 @@ export default [
   },
   {
     wave: "1",
-    faction: [],
+    factions: [],
     name: "Dog",
     cost: 90,
     unique: false,
@@ -254,7 +254,7 @@ export default [
   },
   {
     wave: "1",
-    faction: ["Survivor"],
+    factions: ["Survivor"],
     name: "Dogmeat",
     cost: 110,
     unique: true,
@@ -265,7 +265,7 @@ export default [
   },
   {
     wave: "2",
-    faction: ["Survivor"],
+    factions: ["Survivor"],
     name: "Dogmeat Guard Dog",
     cost: 95,
     unique: true,
@@ -276,7 +276,7 @@ export default [
   },
   {
     wave: "1",
-    faction: ["Survivor"],
+    factions: ["Survivor"],
     name: "Dogmeat Scout",
     cost: 100,
     unique: true,
@@ -287,7 +287,7 @@ export default [
   },
   {
     wave: "3",
-    faction: ["The Institute"],
+    factions: ["The Institute"],
     name: "Elder Maxson",
     cost: 140,
     unique: true,
@@ -298,7 +298,7 @@ export default [
   },
   {
     wave: "3",
-    faction: ["The Institute"],
+    factions: ["The Institute"],
     name: "Engineer",
     cost: 43,
     unique: false,
@@ -309,7 +309,7 @@ export default [
   },
   {
     wave: "1",
-    faction: ["Survivor"],
+    factions: ["Survivor"],
     name: "Enslaved Tech",
     cost: 35,
     unique: false,
@@ -320,7 +320,7 @@ export default [
   },
   {
     wave: "1",
-    faction: [],
+    factions: [],
     name: "Eyebot",
     cost: 45,
     unique: false,
@@ -331,7 +331,7 @@ export default [
   },
   {
     wave: "1",
-    faction: [],
+    factions: [],
     name: "Feral Ghoul",
     cost: 50,
     unique: false,
@@ -342,7 +342,7 @@ export default [
   },
   {
     wave: "1",
-    faction: ["Brotherhood of Steel"],
+    factions: ["Brotherhood of Steel"],
     name: "Field Scribe",
     cost: 43,
     unique: false,
@@ -353,7 +353,7 @@ export default [
   },
   {
     wave: "3",
-    faction: ["Brotherhood of Steel"],
+    factions: ["Brotherhood of Steel"],
     name: "Field Scribe Shield",
     cost: 41,
     unique: false,
@@ -364,7 +364,7 @@ export default [
   },
   {
     wave: "3",
-    faction: ["Super Mutant"],
+    factions: ["Super Mutant"],
     name: "Fist",
     cost: 79,
     unique: true,
@@ -375,7 +375,7 @@ export default [
   },
   {
     wave: "RPG",
-    faction: [],
+    factions: [],
     name: "Fixer",
     cost: 35,
     unique: false,
@@ -386,7 +386,7 @@ export default [
   },
   {
     wave: "RPG",
-    faction: [],
+    factions: [],
     name: "Forager",
     cost: 47,
     unique: false,
@@ -397,7 +397,7 @@ export default [
   },
   {
     wave: "3",
-    faction: ["The Institute"],
+    factions: ["The Institute"],
     name: "Gen 1 Synth",
     cost: 35,
     unique: false,
@@ -408,7 +408,7 @@ export default [
   },
   {
     wave: "2",
-    faction: [],
+    factions: [],
     name: "Glowing Radroach Swarm",
     cost: 40,
     unique: false,
@@ -419,7 +419,7 @@ export default [
   },
   {
     wave: "1",
-    faction: ["Super Mutant"],
+    factions: ["Super Mutant"],
     name: "Hammer",
     cost: 105,
     unique: true,
@@ -430,7 +430,7 @@ export default [
   },
   {
     wave: "3",
-    faction: ["Survivor"],
+    factions: ["Survivor"],
     name: "Hancock",
     cost: 61,
     unique: true,
@@ -441,7 +441,7 @@ export default [
   },
   {
     wave: "RPG",
-    faction: [],
+    factions: [],
     name: "Handyman",
     cost: 48,
     unique: false,
@@ -452,7 +452,7 @@ export default [
   },
   {
     wave: "RPG",
-    faction: ["Super Mutant"],
+    factions: ["Super Mutant"],
     name: "Heavy",
     cost: 50,
     unique: false,
@@ -463,7 +463,7 @@ export default [
   },
   {
     wave: "RPG",
-    faction: ["Super Mutant"],
+    factions: ["Super Mutant"],
     name: "Hunter",
     cost: 48,
     unique: false,
@@ -474,7 +474,7 @@ export default [
   },
   {
     wave: "RPG",
-    faction: [],
+    factions: [],
     name: "Infantry",
     cost: 42,
     unique: false,
@@ -485,7 +485,7 @@ export default [
   },
   {
     wave: "1",
-    faction: ["Brotherhood of Steel"],
+    factions: ["Brotherhood of Steel"],
     name: "Knight",
     cost: 65,
     unique: false,
@@ -496,7 +496,7 @@ export default [
   },
   {
     wave: "1",
-    faction: ["Brotherhood of Steel"],
+    factions: ["Brotherhood of Steel"],
     name: "Knight Patrol",
     cost: 40,
     unique: false,
@@ -507,7 +507,7 @@ export default [
   },
   {
     wave: "1",
-    faction: ["Brotherhood of Steel"],
+    factions: ["Brotherhood of Steel"],
     name: "Knight Patrol (Blade)",
     cost: 38,
     unique: false,
@@ -518,7 +518,7 @@ export default [
   },
   {
     wave: "3",
-    faction: ["Brotherhood of Steel"],
+    factions: ["Brotherhood of Steel"],
     name: "Knight Tech",
     cost: 66,
     unique: false,
@@ -529,7 +529,7 @@ export default [
   },
   {
     wave: "1",
-    faction: ["Brotherhood of Steel"],
+    factions: ["Brotherhood of Steel"],
     name: "Knight-Captain Cade",
     cost: 80,
     unique: true,
@@ -540,7 +540,7 @@ export default [
   },
   {
     wave: "1",
-    faction: ["Brotherhood of Steel"],
+    factions: ["Brotherhood of Steel"],
     name: "Lancer",
     cost: 60,
     unique: false,
@@ -551,7 +551,7 @@ export default [
   },
   {
     wave: "3",
-    faction: ["Brotherhood of Steel"],
+    factions: ["Brotherhood of Steel"],
     name: "Lancer-Captain Kells",
     cost: 88,
     unique: true,
@@ -562,7 +562,7 @@ export default [
   },
   {
     wave: "1",
-    faction: ["Survivor"],
+    factions: ["Survivor"],
     name: "Mama Murphy",
     cost: 85,
     unique: true,
@@ -573,7 +573,7 @@ export default [
   },
   {
     wave: "1",
-    faction: ["Super Mutant"],
+    factions: ["Super Mutant"],
     name: "Master",
     cost: 100,
     unique: false,
@@ -584,7 +584,7 @@ export default [
   },
   {
     wave: "1",
-    faction: ["Minutemen"],
+    factions: ["Minutemen"],
     name: "Minuteman",
     cost: 57,
     unique: false,
@@ -595,7 +595,7 @@ export default [
   },
   {
     wave: "2",
-    faction: [],
+    factions: [],
     name: "Mole Rat",
     cost: 14,
     unique: false,
@@ -606,7 +606,7 @@ export default [
   },
   {
     wave: "1",
-    faction: [],
+    factions: [],
     name: "Mr Handy",
     cost: 70,
     unique: false,
@@ -617,7 +617,7 @@ export default [
   },
   {
     wave: "RPG",
-    faction: [],
+    factions: [],
     name: "Mr. Handy Type-1",
     cost: 60,
     unique: false,
@@ -628,7 +628,7 @@ export default [
   },
   {
     wave: "1",
-    faction: ["Super Mutant"],
+    factions: ["Super Mutant"],
     name: "Mutant Hound",
     cost: 63,
     unique: false,
@@ -639,7 +639,7 @@ export default [
   },
   {
     wave: "1",
-    faction: ["Super Mutant"],
+    factions: ["Super Mutant"],
     name: "Mutant Hound Fiend",
     cost: 65,
     unique: false,
@@ -650,7 +650,7 @@ export default [
   },
   {
     wave: "3",
-    faction: ["Survivor"],
+    factions: ["Survivor"],
     name: "Nick Valentine",
     cost: 90,
     unique: true,
@@ -661,7 +661,7 @@ export default [
   },
   {
     wave: "1",
-    faction: ["Survivor"],
+    factions: ["Survivor"],
     name: "Nuka-Girl",
     cost: 85,
     unique: true,
@@ -672,7 +672,7 @@ export default [
   },
   {
     wave: "3",
-    faction: ["Super Mutant"],
+    factions: ["Super Mutant"],
     name: "Overlord",
     cost: 155,
     unique: false,
@@ -683,7 +683,7 @@ export default [
   },
   {
     wave: "1",
-    faction: ["Brotherhood of Steel"],
+    factions: ["Brotherhood of Steel"],
     name: "Paladin",
     cost: 90,
     unique: false,
@@ -694,7 +694,7 @@ export default [
   },
   {
     wave: "1",
-    faction: ["Brotherhood of Steel"],
+    factions: ["Brotherhood of Steel"],
     name: "Paladin Danse",
     cost: 118,
     unique: true,
@@ -705,7 +705,7 @@ export default [
   },
   {
     wave: "3",
-    faction: ["The Institute"],
+    factions: ["The Institute"],
     name: "Patroller",
     cost: 77,
     unique: false,
@@ -716,7 +716,7 @@ export default [
   },
   {
     wave: "RPG",
-    faction: [],
+    factions: [],
     name: "Pilot",
     cost: 37,
     unique: false,
@@ -727,7 +727,7 @@ export default [
   },
   {
     wave: "1",
-    faction: ["Survivor"],
+    factions: ["Survivor"],
     name: "Piper",
     cost: 76,
     unique: true,
@@ -738,7 +738,7 @@ export default [
   },
   {
     wave: "1",
-    faction: ["Survivor", "Minutemen"],
+    factions: ["Survivor", "Minutemen"],
     name: "Preston Garvey",
     cost: 124,
     unique: true,
@@ -749,7 +749,7 @@ export default [
   },
   {
     wave: "1",
-    faction: [],
+    factions: [],
     name: "Protectron",
     cost: 30,
     unique: false,
@@ -760,7 +760,7 @@ export default [
   },
   {
     wave: "2",
-    faction: ["Raiders"],
+    factions: ["Raiders"],
     name: "Psycho",
     cost: 45,
     unique: false,
@@ -771,7 +771,7 @@ export default [
   },
   {
     wave: "2",
-    faction: ["Raiders"],
+    factions: ["Raiders"],
     name: "Psycho Outlaw",
     cost: 44,
     unique: false,
@@ -782,7 +782,7 @@ export default [
   },
   {
     wave: "2",
-    faction: ["Raiders"],
+    factions: ["Raiders"],
     name: "Putrid Glowing One",
     cost: 210,
     unique: false,
@@ -793,7 +793,7 @@ export default [
   },
   {
     wave: "1",
-    faction: [],
+    factions: [],
     name: "Radroach Swarm",
     cost: 17,
     unique: false,
@@ -804,7 +804,7 @@ export default [
   },
   {
     wave: "1",
-    faction: [],
+    factions: [],
     name: "Radscorpion",
     cost: 90,
     unique: false,
@@ -815,7 +815,7 @@ export default [
   },
   {
     wave: "2",
-    faction: ["Raiders"],
+    factions: ["Raiders"],
     name: "Raider",
     cost: 39,
     unique: false,
@@ -826,7 +826,7 @@ export default [
   },
   {
     wave: "2",
-    faction: ["Raiders"],
+    factions: ["Raiders"],
     name: "Raider Outlaw",
     cost: 39,
     unique: false,
@@ -837,7 +837,7 @@ export default [
   },
   {
     wave: "RPG",
-    faction: [],
+    factions: [],
     name: "Researcher",
     cost: 30,
     unique: false,
@@ -848,7 +848,7 @@ export default [
   },
   {
     wave: "1",
-    faction: ["Survivor", "Minutemen"],
+    factions: ["Survivor", "Minutemen"],
     name: "Ronnie Shaw",
     cost: 114,
     unique: true,
@@ -859,7 +859,7 @@ export default [
   },
   {
     wave: "1",
-    faction: ["Survivor"],
+    factions: ["Survivor"],
     name: "Scavenger",
     cost: 42,
     unique: false,
@@ -870,7 +870,7 @@ export default [
   },
   {
     wave: "2",
-    faction: ["Raiders"],
+    factions: ["Raiders"],
     name: "Scavver",
     cost: 60,
     unique: false,
@@ -881,7 +881,7 @@ export default [
   },
   {
     wave: "2",
-    faction: ["Raiders"],
+    factions: ["Raiders"],
     name: "Scavver Outlaw",
     cost: 59,
     unique: false,
@@ -892,7 +892,7 @@ export default [
   },
   {
     wave: "3",
-    faction: ["The Institute"],
+    factions: ["The Institute"],
     name: "Scientist",
     cost: 30,
     unique: false,
@@ -903,7 +903,7 @@ export default [
   },
   {
     wave: "RPG",
-    faction: [],
+    factions: [],
     name: "Scout",
     cost: 62,
     unique: false,
@@ -914,7 +914,7 @@ export default [
   },
   {
     wave: "1",
-    faction: [],
+    factions: [],
     name: "Sentry Bot",
     cost: 310,
     unique: false,
@@ -925,7 +925,7 @@ export default [
   },
   {
     wave: "1",
-    faction: ["Survivor"],
+    factions: ["Survivor"],
     name: "Settler",
     cost: 40,
     unique: false,
@@ -936,7 +936,7 @@ export default [
   },
   {
     wave: "2",
-    faction: ["Raiders"],
+    factions: ["Raiders"],
     name: "Sinjin",
     cost: 88,
     unique: true,
@@ -947,7 +947,7 @@ export default [
   },
   {
     wave: "3",
-    faction: ["Super Mutant"],
+    factions: ["Super Mutant"],
     name: "Skirmisher",
     cost: 49,
     unique: false,
@@ -958,7 +958,7 @@ export default [
   },
   {
     wave: "RPG",
-    faction: [],
+    factions: [],
     name: "Sniper",
     cost: 58,
     unique: false,
@@ -969,7 +969,7 @@ export default [
   },
   {
     wave: "1",
-    faction: ["Survivor"],
+    factions: ["Survivor"],
     name: "Sole Survivor",
     cost: 103,
     unique: true,
@@ -980,7 +980,7 @@ export default [
   },
   {
     wave: "1",
-    faction: ["Survivor"],
+    factions: ["Survivor"],
     name: "Sole Survivor Day One",
     cost: 81,
     unique: true,
@@ -991,7 +991,7 @@ export default [
   },
   {
     wave: "1",
-    faction: ["Survivor"],
+    factions: ["Survivor"],
     name: "Sole Survivor Loner",
     cost: 123,
     unique: true,
@@ -1002,7 +1002,7 @@ export default [
   },
   {
     wave: "2",
-    faction: ["Survivor"],
+    factions: ["Survivor"],
     name: "Sole Survivor Tech",
     cost: 85,
     unique: true,
@@ -1013,7 +1013,7 @@ export default [
   },
   {
     wave: "3",
-    faction: ["Super Mutant"],
+    factions: ["Super Mutant"],
     name: "Strong",
     cost: 90,
     unique: true,
@@ -1024,7 +1024,7 @@ export default [
   },
   {
     wave: "1",
-    faction: ["Survivor"],
+    factions: ["Survivor"],
     name: "Sturges",
     cost: 92,
     unique: true,
@@ -1035,7 +1035,7 @@ export default [
   },
   {
     wave: "1",
-    faction: ["Super Mutant"],
+    factions: ["Super Mutant"],
     name: "Suicider",
     cost: 55,
     unique: false,
@@ -1046,7 +1046,7 @@ export default [
   },
   {
     wave: "1",
-    faction: ["Super Mutant"],
+    factions: ["Super Mutant"],
     name: "Super Mutant",
     cost: 40,
     unique: false,
@@ -1057,7 +1057,7 @@ export default [
   },
   {
     wave: "RPG",
-    faction: [],
+    factions: [],
     name: "Technician",
     cost: 41,
     unique: false,
@@ -1068,7 +1068,7 @@ export default [
   },
   {
     wave: "3",
-    faction: [],
+    factions: [],
     name: "The Mechanist",
     cost: 145,
     unique: true,
@@ -1079,7 +1079,7 @@ export default [
   },
   {
     wave: "RPG",
-    faction: [],
+    factions: [],
     name: "Thug",
     cost: 48,
     unique: false,
@@ -1090,7 +1090,7 @@ export default [
   },
   {
     wave: "3",
-    faction: ["The Institute"],
+    factions: ["The Institute"],
     name: "Trooper",
     cost: 88,
     unique: false,
@@ -1101,7 +1101,7 @@ export default [
   },
   {
     wave: "3",
-    faction: ["Vault Dweller"],
+    factions: ["Vault Dweller"],
     name: "Vault Dweller",
     cost: 34,
     unique: false,
@@ -1112,7 +1112,7 @@ export default [
   },
   {
     wave: "3",
-    faction: ["Vault Dweller"],
+    factions: ["Vault Dweller"],
     name: "Vault-Security Officer",
     cost: 40,
     unique: false,
@@ -1123,7 +1123,7 @@ export default [
   },
   {
     wave: "2",
-    faction: ["Raiders"],
+    factions: ["Raiders"],
     name: "Veteran Raider",
     cost: 85,
     unique: false,
@@ -1134,7 +1134,7 @@ export default [
   },
   {
     wave: "2",
-    faction: ["Raiders"],
+    factions: ["Raiders"],
     name: "Weak Feral Ghoul",
     cost: 28,
     unique: false,
@@ -1145,7 +1145,7 @@ export default [
   },
   {
     wave: "1",
-    faction: ["Survivor"],
+    factions: ["Survivor"],
     name: "X6-88 Courser",
     cost: 152,
     unique: true,
@@ -1156,7 +1156,7 @@ export default [
   },
   {
     wave: "2",
-    faction: [],
+    factions: [],
     name: "Young Deathclaw",
     cost: 125,
     unique: false,
@@ -1167,7 +1167,7 @@ export default [
   },
   {
     wave: "3",
-    faction: ["The Institute"],
+    factions: ["The Institute"],
     name: "Z2-47",
     cost: 118,
     unique: true,

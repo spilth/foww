@@ -16,7 +16,7 @@ import "./UnitTable.css";
 export function UnitTable() {
   const data = useMemo(() => units, []);
 
-  const FactionColumnFilter = ({
+  const FactionsColumnFilter = ({
     column: { filterValue, setFilter, preFilteredRows, id },
   }) => {
     const options = useMemo(() => {
@@ -32,9 +32,7 @@ export function UnitTable() {
     return (
       <select
         value={filterValue}
-        onChange={(e) => {
-          setFilter(e.target.value || undefined);
-        }}
+        onChange={(e) => setFilter(e.target.value || undefined)}
         className="form-control"
       >
         <option value="">All</option>
@@ -52,18 +50,14 @@ export function UnitTable() {
   }) => {
     const options = useMemo(() => {
       const options = new Set();
-      preFilteredRows.forEach((row) => {
-        options.add(row.values[id]);
-      });
+      preFilteredRows.forEach((row) => options.add(row.values[id]));
       return [...options.values()].sort().filter((v) => v != null && v !== "");
     }, [id, preFilteredRows]);
 
     return (
       <select
         value={filterValue}
-        onChange={(e) => {
-          setFilter(e.target.value || undefined);
-        }}
+        onChange={(e) => setFilter(e.target.value || undefined)}
         className="form-control"
       >
         <option value="">All</option>
@@ -76,14 +70,12 @@ export function UnitTable() {
     );
   };
 
-  const NumberColumnFilter = ({
+  const RangeColumnFilter = ({
     column: { filterValue, setFilter, preFilteredRows, id },
   }) => {
     const options = useMemo(() => {
       const options = new Set();
-      preFilteredRows.forEach((row) => {
-        options.add(row.values[id]);
-      });
+      preFilteredRows.forEach((row) => options.add(row.values[id]));
       return [...options.values()].sort((a, b) => a - b);
     }, [id, preFilteredRows]);
 
@@ -105,10 +97,12 @@ export function UnitTable() {
     );
   };
 
-  const FactionCell = ({ value }) => <span>{value.join(" / ")}</span>;
+  const FactionsCell = ({ value: factions }) => (
+    <span>{factions.join(" / ")}</span>
+  );
 
-  const DistanceCell = ({ value }) => (
-    <div className={`distance distance-${value}`}>{value}</div>
+  const RangeCell = ({ value: range }) => (
+    <div className={`range range-${range}`}>{range}</div>
   );
 
   const columns = useMemo(
@@ -120,11 +114,11 @@ export function UnitTable() {
         filter: "equals",
       },
       {
-        Header: "Faction",
-        accessor: "faction",
-        Filter: FactionColumnFilter,
+        Header: "Factions",
+        accessor: "factions",
+        Filter: FactionsColumnFilter,
         filter: "includes",
-        Cell: FactionCell,
+        Cell: FactionsCell,
       },
       {
         Header: "Name",
@@ -142,32 +136,30 @@ export function UnitTable() {
       },
       {
         Header: "Unique",
-        accessor: (d) => {
-          return d.unique ? "Yes" : "No";
-        },
+        accessor: (d) => (d.unique ? "Yes" : "No"),
         Filter: StringColumnFilter,
         filter: "equals",
       },
       {
         Header: <FontAwesomeIcon icon={faPlay} fixedWidth />,
         accessor: "move",
-        Filter: NumberColumnFilter,
+        Filter: RangeColumnFilter,
         filter: "equals",
-        Cell: DistanceCell,
+        Cell: RangeCell,
       },
       {
         Header: <FontAwesomeIcon icon={faForward} fixedWidth />,
         accessor: "charge",
-        Filter: NumberColumnFilter,
+        Filter: RangeColumnFilter,
         filter: "equals",
-        Cell: DistanceCell,
+        Cell: RangeCell,
       },
       {
         Header: <FontAwesomeIcon icon={faEye} fixedWidth />,
         accessor: "awareness",
-        Filter: NumberColumnFilter,
+        Filter: RangeColumnFilter,
         filter: "equals",
-        Cell: DistanceCell,
+        Cell: RangeCell,
       },
     ],
     []

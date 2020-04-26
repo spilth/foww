@@ -1,29 +1,29 @@
-.distance {
+.range {
     color: #ffffff;
     text-align: center;
 }
 
-.distance-2 {
+.range-2 {
     background: #ED7203;
 }
 
-.distance-4 {
+.range-4 {
     background: #FDE634;
     color: #06171E;
 }
 
-.distance-6 {
+.range-6 {
     background: #E6332B;
 }
 
-.distance-8 {
+.range-8 {
     background: #07A13B;
 }
 
-.distance-10 {
+.range-10 {
     background: #0D9FE3;
 }
 
-.distance-12 {
+.range-12 {
     background: #000000;
 }
