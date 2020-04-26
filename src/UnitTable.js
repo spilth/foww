@@ -197,8 +197,8 @@ export function UnitTable() {
   );
 
   return (
-    <table {...getTableProps()} className="table table-sm table-borderless">
-      <thead>
+    <table {...getTableProps()} className="table table-sm table-borderless table-striped">
+      <thead className="thead-dark">
         {headerGroups.map((headerGroup) => (
           <tr {...headerGroup.getHeaderGroupProps()}>
             {headerGroup.headers.map((column) => (
