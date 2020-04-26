@@ -287,7 +287,7 @@ export default [
   },
   {
     wave: "3",
-    factions: ["The Institute"],
+    factions: ["Brotherhood of Steel"],
     name: "Elder Maxson",
     cost: 140,
     unique: true,
