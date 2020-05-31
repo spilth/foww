@@ -119,6 +119,7 @@ export function UnitTable() {
         Filter: FactionsColumnFilter,
         filter: "includes",
         Cell: FactionsCell,
+        sortType: "faction"
       },
       {
         Header: "Name",
@@ -189,6 +190,17 @@ export function UnitTable() {
     []
   );
 
+  const sortTypes = useMemo(
+    () => ({
+      faction: (rowA, rowB) => {
+        if (rowA.values.factions[0] === undefined) return 1;
+        if (rowB.values.factions[0] === undefined) return -1;
+        return rowA.values.factions[0]> rowB.values.factions[0];
+      }
+    }),
+    []
+  )
+
   const filterTypes = useMemo(
     () => ({
       text: (rows, id, filterValue) => {
@@ -217,6 +229,7 @@ export function UnitTable() {
       data,
       defaultColumn,
       filterTypes,
+      sortTypes
     },
     useFilters,
     useSortBy
