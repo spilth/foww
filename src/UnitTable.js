@@ -119,7 +119,7 @@ export function UnitTable() {
         Filter: FactionsColumnFilter,
         filter: "includes",
         Cell: FactionsCell,
-        sortType: "faction"
+        sortType: "faction",
       },
       {
         Header: "Name",
@@ -169,15 +169,13 @@ export function UnitTable() {
   const DefaultColumnFilter = ({
     column: { filterValue, preFilteredRows, setFilter },
   }) => {
-    const count = preFilteredRows.length;
-
     return (
       <input
         value={filterValue || ""}
         onChange={(e) => {
           setFilter(e.target.value || undefined);
         }}
-        placeholder={`Search ${count} records...`}
+        placeholder={`Search...`}
         className="form-control"
       />
     );
@@ -195,11 +193,11 @@ export function UnitTable() {
       faction: (rowA, rowB) => {
         if (rowA.values.factions[0] === undefined) return 1;
         if (rowB.values.factions[0] === undefined) return -1;
-        return rowA.values.factions[0]> rowB.values.factions[0];
-      }
+        return rowA.values.factions[0] > rowB.values.factions[0];
+      },
     }),
     []
-  )
+  );
 
   const filterTypes = useMemo(
     () => ({
@@ -229,7 +227,7 @@ export function UnitTable() {
       data,
       defaultColumn,
       filterTypes,
-      sortTypes
+      sortTypes,
     },
     useFilters,
     useSortBy
