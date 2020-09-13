@@ -5,6 +5,9 @@ import Nav from "react-bootstrap/Nav";
 import { LinkContainer } from "react-router-bootstrap";
 import NavItem from "react-bootstrap/NavItem";
 import NavLink from "react-bootstrap/NavLink";
+import {LeaderTable} from "./LeaderTable";
+import {PerkTable} from "./PerkTable";
+import { Links } from "./Links";
 
 const App = () => {
   return (
@@ -15,16 +18,47 @@ const App = () => {
           <Nav variant="tabs" className="mt-2 mb-2">
             <LinkContainer to="/">
               <NavItem>
-                <NavLink href="/" active={true}>
-                  Unit List
+                <NavLink href="/">
+                  Links
                 </NavLink>
               </NavItem>
             </LinkContainer>
+            <LinkContainer to="/units">
+              <NavItem>
+                <NavLink href="/units">
+                  Units
+                </NavLink>
+              </NavItem>
+            </LinkContainer>
+            <LinkContainer to="/leaders">
+              <NavItem>
+                <NavLink href="/leaders">
+                  Leaders
+                </NavLink>
+              </NavItem>
+            </LinkContainer>
+            <LinkContainer to="/perks">
+              <NavItem>
+                <NavLink href="/perks">
+                  Perks
+                </NavLink>
+              </NavItem>
+            </LinkContainer>
+
           </Nav>
 
           <Switch>
-            <Route path="/">
+            <Route path="/" exact={true}>
+              <Links />
+            </Route>
+            <Route path="/units">
               <UnitTable />
+            </Route>
+            <Route path="/leaders">
+              <LeaderTable />
+            </Route>
+            <Route path="/perks">
+              <PerkTable />
             </Route>
           </Switch>
         </div>
