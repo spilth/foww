@@ -1,67 +1,66 @@
 import React from "react";
 import { UnitTable } from "./UnitTable";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Nav from "react-bootstrap/Nav";
-import { LinkContainer } from "react-router-bootstrap";
-import NavItem from "react-bootstrap/NavItem";
-import NavLink from "react-bootstrap/NavLink";
-import {LeaderTable} from "./LeaderTable";
-import {PerkTable} from "./PerkTable";
+import { LeaderTable } from "./LeaderTable";
+import { PerkTable } from "./PerkTable";
 import { Links } from "./Links";
+import { TerrainTable } from "./TerrainTable";
+import Navbar from "react-bootstrap/Navbar";
+import NavLink from "react-bootstrap/NavLink";
 
 const App = () => {
   return (
-    <div className="container">
-      <h1>Fallout: Wasteland Warfare</h1>
+    <div>
       <Router>
-        <div>
-          <Nav variant="tabs" className="mt-2 mb-2">
-            <LinkContainer to="/">
-              <NavItem>
-                <NavLink href="/">
-                  Links
-                </NavLink>
-              </NavItem>
-            </LinkContainer>
-            <LinkContainer to="/units">
-              <NavItem>
-                <NavLink href="/units">
-                  Units
-                </NavLink>
-              </NavItem>
-            </LinkContainer>
-            <LinkContainer to="/leaders">
-              <NavItem>
-                <NavLink href="/leaders">
-                  Leaders
-                </NavLink>
-              </NavItem>
-            </LinkContainer>
-            <LinkContainer to="/perks">
-              <NavItem>
-                <NavLink href="/perks">
-                  Perks
-                </NavLink>
-              </NavItem>
-            </LinkContainer>
+        <Navbar bg="dark" variant="dark" expand="lg" className="mb-4">
+          <Navbar.Brand href="/">Fallout: Wasteland Warfare</Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="mr-auto">
+              <NavLink href="/">Links</NavLink>
+              <NavLink href="/units">Units</NavLink>
+              <NavLink href="/leaders">Leaders</NavLink>
+              <NavLink href="/perks">Perks</NavLink>
+              <NavLink href="/terrain">Searchables &amp; Terrain</NavLink>
+            </Nav>
+          </Navbar.Collapse>
+        </Navbar>
 
-          </Nav>
-
+        <main role="main" className="container">
           <Switch>
             <Route path="/" exact={true}>
-              <Links />
+              <div>
+                <h1>Links</h1>
+                <Links />
+              </div>
             </Route>
             <Route path="/units">
-              <UnitTable />
+              <div>
+                <h1>Units</h1>
+                <UnitTable />
+              </div>
+            </Route>
+            <Route path="/terrain">
+              <div>
+                <h1>Searchables &amp; Terrain</h1>
+                <TerrainTable />
+              </div>
             </Route>
             <Route path="/leaders">
-              <LeaderTable />
+              <div>
+                <h1>Leaders</h1>
+                <LeaderTable />
+              </div>
             </Route>
             <Route path="/perks">
-              <PerkTable />
+              <div>
+                <h1>Perks</h1>
+                <PerkTable />
+              </div>
             </Route>
           </Switch>
-        </div>
+        </main>
       </Router>
 
       <h6 className="text-center">
