@@ -39,11 +39,21 @@ export function TerrainTable() {
       },
       {
         Header: "Provides Cover?",
-        accessor: (d) => (d.provides_cover ? "Yes" : "No"),
+        accessor({ provides_cover }) {
+          if (provides_cover === null) {
+            return "--"
+          }
+          return provides_cover ? "Yes" : "No";
+        }
       },
       {
         Header: "Blocks Line of Sight?",
-        accessor: (d) => (d.blocks_line_of_sight ? "Yes" : "No"),
+        accessor({ blocks_line_of_sight }) {
+          if (blocks_line_of_sight === null) {
+            return "--"
+          }
+          return blocks_line_of_sight ? "Yes" : "No";
+        }
       },
     ],
     []
