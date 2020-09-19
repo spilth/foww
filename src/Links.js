@@ -13,8 +13,8 @@ export function Links() {
         <li><a href="https://www.modiphius.com/fallout-downloads.html">Free Downloads</a></li>
         <li><a href="https://forums.modiphius.com/c/fallout-wasteland-warfare/12">Forums</a></li>
         <li><a href="https://www.youtube.com/playlist?list=PLE8gwC4Miwd3CogQRy-qGDtgunxUhcm-M">How to Play Videos</a></li>
-        <li><a href="https://testflight.apple.com/join/Vzn4hliB">iOS App (Beta)</a></li>
-        <li><a href="https://play.google.com/apps/testing/com.modiphius.fallout.wastelandwarfare">Android App (Beta)</a></li>
+        <li><a href="https://apps.apple.com/us/app/id1480950563">iOS App</a></li>
+        <li><a href="https://play.google.com/store/apps/details?id=com.modiphius.fallout.wastelandwarfare">Android App</a></li>
       </ul>
 
       <h2>Community Links</h2>
