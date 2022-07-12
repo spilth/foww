@@ -3,7 +3,11 @@ import React, { useMemo } from "react";
 import "./UnitTable.css";
 import terrain from "./data/terrain";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSort, faSortDown, faSortUp } from "@fortawesome/free-solid-svg-icons";
+import {
+  faSort,
+  faSortDown,
+  faSortUp,
+} from "@fortawesome/free-solid-svg-icons";
 import { useSortBy, useTable } from "react-table";
 
 export function TerrainTable() {
@@ -41,19 +45,19 @@ export function TerrainTable() {
         Header: "Provides Cover?",
         accessor({ provides_cover }) {
           if (provides_cover === null) {
-            return "--"
+            return "--";
           }
           return provides_cover ? "Yes" : "No";
-        }
+        },
       },
       {
         Header: "Blocks Line of Sight?",
         accessor({ blocks_line_of_sight }) {
           if (blocks_line_of_sight === null) {
-            return "--"
+            return "--";
           }
           return blocks_line_of_sight ? "Yes" : "No";
-        }
+        },
       },
     ],
     []
@@ -81,20 +85,15 @@ export function TerrainTable() {
     []
   );
 
-  const {
-    getTableProps,
-    getTableBodyProps,
-    headerGroups,
-    rows,
-    prepareRow,
-  } = useTable(
-    {
-      columns,
-      data,
-      defaultColumn,
-    },
-    useSortBy
-  );
+  const { getTableProps, getTableBodyProps, headerGroups, rows, prepareRow } =
+    useTable(
+      {
+        columns,
+        data,
+        defaultColumn,
+      },
+      useSortBy
+    );
 
   return (
     <table

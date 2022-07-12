@@ -1,9 +1,13 @@
-import React, {useMemo} from "react";
+import React, { useMemo } from "react";
 
 import "./UnitTable.css";
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faSort, faSortDown, faSortUp,} from "@fortawesome/free-solid-svg-icons";
-import {useFilters, useSortBy, useTable} from "react-table";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faSort,
+  faSortDown,
+  faSortUp,
+} from "@fortawesome/free-solid-svg-icons";
+import { useFilters, useSortBy, useTable } from "react-table";
 import perks from "./data/perks";
 
 export function PerkTable() {
@@ -61,22 +65,17 @@ export function PerkTable() {
     []
   );
 
-  const {
-    getTableProps,
-    getTableBodyProps,
-    headerGroups,
-    rows,
-    prepareRow,
-  } = useTable(
-    {
-      columns,
-      data,
-      defaultColumn,
-      filterTypes,
-    },
-    useFilters,
-    useSortBy
-  );
+  const { getTableProps, getTableBodyProps, headerGroups, rows, prepareRow } =
+    useTable(
+      {
+        columns,
+        data,
+        defaultColumn,
+        filterTypes,
+      },
+      useFilters,
+      useSortBy
+    );
 
   return (
     <table

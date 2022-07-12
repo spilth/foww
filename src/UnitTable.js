@@ -215,23 +215,18 @@ export function UnitTable() {
     []
   );
 
-  const {
-    getTableProps,
-    getTableBodyProps,
-    headerGroups,
-    rows,
-    prepareRow,
-  } = useTable(
-    {
-      columns,
-      data,
-      defaultColumn,
-      filterTypes,
-      sortTypes,
-    },
-    useFilters,
-    useSortBy
-  );
+  const { getTableProps, getTableBodyProps, headerGroups, rows, prepareRow } =
+    useTable(
+      {
+        columns,
+        data,
+        defaultColumn,
+        filterTypes,
+        sortTypes,
+      },
+      useFilters,
+      useSortBy
+    );
 
   return (
     <table
